@@ -3,14 +3,14 @@ The 3D Pulse-coupled Neural Networks (PCNN)  method allows automatic brain extra
 
 Download
 
-Matlab code (ver 1.2) and an easy code for running PCNN3D on Nifti data.
+Matlab code (ver 1.2) and an easy code (i.e., PCNN3D_run_v1_3.m) for running PCNN3D on Nifti data.
 
 * This requires a Nifti toolbox (eg, https://au.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image).
 
 Usage
 
 
-First load the image data as a 3D matrix into Matlab. For Analyze format, one can use the read_analyze.m in the package.
+First load the image data as a 3D matrix into Matlab. For Analyze/NIFTI format, one can use the PCNN3D_run_v1_3.m in the package.
 
 Then use the following command to generate the brain mask:
 
